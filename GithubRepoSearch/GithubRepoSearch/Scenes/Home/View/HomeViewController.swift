@@ -35,6 +35,7 @@ class HomeViewController: UIViewController {
     @IBAction func didTapSearch(_ sender: Any) {
         
         print(searchBar.text!)
+        RequestAPI.performAPIRequest()
     }
     
     func setup() {
